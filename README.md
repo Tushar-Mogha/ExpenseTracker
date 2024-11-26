@@ -1,26 +1,31 @@
-# expense.github.io
+# Dynamic CSV Expense Tracker
 
-Expense Tracker with Professional GUI: Description, Instructions, and Requirements
-Description:
-This Expense Tracker is a Python application designed to track and visualize monthly expenses. It uses Tkinter for the graphical user interface (GUI) and Matplotlib for displaying a bar chart of expenses by category.
+A Python-based graphical application that allows users to analyze expenses from any CSV file dynamically. Users can load a CSV file, select relevant columns for categorization and amounts, and visualize the data in a bar chart.
 
-Features:
-Expense Tracking: You can track monthly expenses across multiple categories such as Food, Housing, Utilities, and more.
-Total Expenses: The application calculates and displays the total amount spent for the month.
-Bar Chart Visualization: A professional bar chart is generated to show the distribution of expenses by category.
-User-friendly Interface: The GUI is modern and professional, with intuitive controls and a visually appealing design.
-The user can interact with the application by loading the expense data from a CSV file and viewing the total spending along with a graphical representation.
+---
 
-Requirements:
-To run the Expense Tracker application, the following Python libraries are required:
+## Features
 
-Pandas: For handling and manipulating the expense data stored in the CSV file.
-Matplotlib: For generating the bar chart that displays the distribution of expenses.
-Tkinter: For creating the graphical user interface (GUI).
-Install Dependencies:
-Make sure to install the required libraries using the following commands:
+- **Dynamic Column Selection:** Supports any CSV file by allowing users to select columns for analysis.
+- **Interactive Visualization:** Displays expenses by category in a visually appealing bar chart.
+- **Total Expense Calculation:** Calculates and displays the total amount spent.
+- **Modern GUI:** User-friendly interface built with Tkinter.
+- **File Selection Dialog:** Users can easily select their CSV files using a file dialog.
 
-Note: Tkinter is included with most standard Python installations, so you may not need to install it separately. If you encounter issues, make sure it's properly installed for your Python version.
+---
+
+## Requirements
+
+To run the application, make sure you have the following installed:
+
+- Python 3.7+
+- Required Python libraries:
+  - `pandas`
+  - `matplotlib`
+  - `tkinter` (built-in with Python)
+
+---
+
 
 Instructions for Usage:
 Prepare Your Data:
